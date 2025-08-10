@@ -3,7 +3,7 @@ const app = express()
 
 
 app.get('/home', (req,res)=>{
-    res.send('server working')
+    res.send('Welcome to home')
 })
 
 
